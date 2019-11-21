@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E529C94117AD7057FB2D45D /* Pods_AwesomeChuckApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CFE5C85A4AA713D38F5532F /* Pods_AwesomeChuckApp.framework */; };
+		B525BC2D229F30B500DA9042 /* ChoosenJokeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B525BC2C229F30B500DA9042 /* ChoosenJokeVC.swift */; };
+		B525BC2F229F35D800DA9042 /* ConvertHtmlQoutesToSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B525BC2E229F35D800DA9042 /* ConvertHtmlQoutesToSwift.swift */; };
+		B525BC31229F476F00DA9042 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B525BC30229F476F00DA9042 /* Constants.swift */; };
 		B5404427229DC35C0030640B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5404426229DC35C0030640B /* AppDelegate.swift */; };
-		B5404429229DC35C0030640B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5404428229DC35C0030640B /* FirstViewController.swift */; };
-		B540442B229DC35C0030640B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B540442A229DC35C0030640B /* SecondViewController.swift */; };
+		B5404429229DC35C0030640B /* ChuckJokesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5404428229DC35C0030640B /* ChuckJokesVC.swift */; };
+		B540442B229DC35C0030640B /* ApiDescriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B540442A229DC35C0030640B /* ApiDescriptionVC.swift */; };
 		B540442E229DC35C0030640B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B540442C229DC35C0030640B /* Main.storyboard */; };
 		B5404430229DC35F0030640B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B540442F229DC35F0030640B /* Assets.xcassets */; };
 		B5404433229DC35F0030640B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5404431229DC35F0030640B /* LaunchScreen.storyboard */; };
+		B59CC421229E9D9100D3DBB2 /* JokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59CC420229E9D9100D3DBB2 /* JokeCell.swift */; };
+		B59CC424229E9DE800D3DBB2 /* JokeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59CC423229E9DE800D3DBB2 /* JokeService.swift */; };
+		B59CC426229EA8A400D3DBB2 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59CC425229EA8A400D3DBB2 /* Joke.swift */; };
+		B59CC429229EE23E00D3DBB2 /* EnterNumOfJokesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59CC427229EE23E00D3DBB2 /* EnterNumOfJokesVC.swift */; };
+		B59CC42A229EE23E00D3DBB2 /* EnterNumOfJokesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B59CC428229EE23E00D3DBB2 /* EnterNumOfJokesVC.xib */; };
+		B59CC42F229F184000D3DBB2 /* IntExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59CC42E229F184000D3DBB2 /* IntExtention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CFE5C85A4AA713D38F5532F /* Pods_AwesomeChuckApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeChuckApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		772FFE04DF104D1CF7667A32 /* Pods-AwesomeChuckApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeChuckApp.debug.xcconfig"; path = "Target Support Files/Pods-AwesomeChuckApp/Pods-AwesomeChuckApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B525BC2C229F30B500DA9042 /* ChoosenJokeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosenJokeVC.swift; sourceTree = "<group>"; };
+		B525BC2E229F35D800DA9042 /* ConvertHtmlQoutesToSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertHtmlQoutesToSwift.swift; sourceTree = "<group>"; };
+		B525BC30229F476F00DA9042 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B5404423229DC35C0030640B /* AwesomeChuckApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeChuckApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5404426229DC35C0030640B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B5404428229DC35C0030640B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		B540442A229DC35C0030640B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B5404428229DC35C0030640B /* ChuckJokesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuckJokesVC.swift; sourceTree = "<group>"; };
+		B540442A229DC35C0030640B /* ApiDescriptionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiDescriptionVC.swift; sourceTree = "<group>"; };
 		B540442D229DC35C0030640B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B540442F229DC35F0030640B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5404432229DC35F0030640B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5404434229DC35F0030640B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B59CC420229E9D9100D3DBB2 /* JokeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeCell.swift; sourceTree = "<group>"; };
+		B59CC423229E9DE800D3DBB2 /* JokeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeService.swift; sourceTree = "<group>"; };
+		B59CC425229EA8A400D3DBB2 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		B59CC427229EE23E00D3DBB2 /* EnterNumOfJokesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNumOfJokesVC.swift; sourceTree = "<group>"; };
+		B59CC428229EE23E00D3DBB2 /* EnterNumOfJokesVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnterNumOfJokesVC.xib; sourceTree = "<group>"; };
+		B59CC42E229F184000D3DBB2 /* IntExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtention.swift; sourceTree = "<group>"; };
+		DF8B865FA85990D03E81B0C1 /* Pods-AwesomeChuckApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeChuckApp.release.xcconfig"; path = "Target Support Files/Pods-AwesomeChuckApp/Pods-AwesomeChuckApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E529C94117AD7057FB2D45D /* Pods_AwesomeChuckApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81CAA5CA9BD5AAFE51CBD87E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CFE5C85A4AA713D38F5532F /* Pods_AwesomeChuckApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B38F4DC3332A66DC52525CAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				772FFE04DF104D1CF7667A32 /* Pods-AwesomeChuckApp.debug.xcconfig */,
+				DF8B865FA85990D03E81B0C1 /* Pods-AwesomeChuckApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B540441A229DC35C0030640B = {
 			isa = PBXGroup;
 			children = (
 				B5404425229DC35C0030640B /* AwesomeChuckApp */,
 				B5404424229DC35C0030640B /* Products */,
+				B38F4DC3332A66DC52525CAA /* Pods */,
+				81CAA5CA9BD5AAFE51CBD87E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +98,72 @@
 		B5404425229DC35C0030640B /* AwesomeChuckApp */ = {
 			isa = PBXGroup;
 			children = (
+				B59CC42D229F17F500D3DBB2 /* Ext */,
+				B59CC42B229EE24400D3DBB2 /* XIB`s */,
+				B59CC422229E9DCF00D3DBB2 /* Services */,
+				B540443A229E9AD20030640B /* Model */,
+				B540443C229E9AEE0030640B /* View */,
+				B540443D229E9AF80030640B /* Controller */,
 				B5404426229DC35C0030640B /* AppDelegate.swift */,
-				B5404428229DC35C0030640B /* FirstViewController.swift */,
-				B540442A229DC35C0030640B /* SecondViewController.swift */,
 				B540442C229DC35C0030640B /* Main.storyboard */,
 				B540442F229DC35F0030640B /* Assets.xcassets */,
 				B5404431229DC35F0030640B /* LaunchScreen.storyboard */,
 				B5404434229DC35F0030640B /* Info.plist */,
 			);
 			path = AwesomeChuckApp;
+			sourceTree = "<group>";
+		};
+		B540443A229E9AD20030640B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B59CC425229EA8A400D3DBB2 /* Joke.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B540443C229E9AEE0030640B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B59CC420229E9D9100D3DBB2 /* JokeCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B540443D229E9AF80030640B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5404428229DC35C0030640B /* ChuckJokesVC.swift */,
+				B540442A229DC35C0030640B /* ApiDescriptionVC.swift */,
+				B59CC427229EE23E00D3DBB2 /* EnterNumOfJokesVC.swift */,
+				B525BC2C229F30B500DA9042 /* ChoosenJokeVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B59CC422229E9DCF00D3DBB2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B59CC423229E9DE800D3DBB2 /* JokeService.swift */,
+				B525BC30229F476F00DA9042 /* Constants.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B59CC42B229EE24400D3DBB2 /* XIB`s */ = {
+			isa = PBXGroup;
+			children = (
+				B59CC428229EE23E00D3DBB2 /* EnterNumOfJokesVC.xib */,
+			);
+			path = "XIB`s";
+			sourceTree = "<group>";
+		};
+		B59CC42D229F17F500D3DBB2 /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				B59CC42E229F184000D3DBB2 /* IntExtention.swift */,
+				B525BC2E229F35D800DA9042 /* ConvertHtmlQoutesToSwift.swift */,
+			);
+			path = Ext;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5404437229DC35F0030640B /* Build configuration list for PBXNativeTarget "AwesomeChuckApp" */;
 			buildPhases = (
+				6A27A0362DC1CDAA47B051F1 /* [CP] Check Pods Manifest.lock */,
 				B540441F229DC35C0030640B /* Sources */,
 				B5404420229DC35C0030640B /* Frameworks */,
 				B5404421229DC35C0030640B /* Resources */,
+				E18C3C3820743D2C84015C7B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,20 +228,78 @@
 			files = (
 				B5404433229DC35F0030640B /* LaunchScreen.storyboard in Resources */,
 				B5404430229DC35F0030640B /* Assets.xcassets in Resources */,
+				B59CC42A229EE23E00D3DBB2 /* EnterNumOfJokesVC.xib in Resources */,
 				B540442E229DC35C0030640B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6A27A0362DC1CDAA47B051F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AwesomeChuckApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E18C3C3820743D2C84015C7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AwesomeChuckApp/Pods-AwesomeChuckApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AwesomeChuckApp/Pods-AwesomeChuckApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B540441F229DC35C0030640B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B540442B229DC35C0030640B /* SecondViewController.swift in Sources */,
+				B59CC424229E9DE800D3DBB2 /* JokeService.swift in Sources */,
+				B525BC31229F476F00DA9042 /* Constants.swift in Sources */,
+				B525BC2D229F30B500DA9042 /* ChoosenJokeVC.swift in Sources */,
+				B525BC2F229F35D800DA9042 /* ConvertHtmlQoutesToSwift.swift in Sources */,
+				B540442B229DC35C0030640B /* ApiDescriptionVC.swift in Sources */,
+				B59CC426229EA8A400D3DBB2 /* Joke.swift in Sources */,
+				B59CC429229EE23E00D3DBB2 /* EnterNumOfJokesVC.swift in Sources */,
 				B5404427229DC35C0030640B /* AppDelegate.swift in Sources */,
-				B5404429229DC35C0030640B /* FirstViewController.swift in Sources */,
+				B59CC421229E9D9100D3DBB2 /* JokeCell.swift in Sources */,
+				B59CC42F229F184000D3DBB2 /* IntExtention.swift in Sources */,
+				B5404429229DC35C0030640B /* ChuckJokesVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +443,7 @@
 		};
 		B5404438229DC35F0030640B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 772FFE04DF104D1CF7667A32 /* Pods-AwesomeChuckApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +462,7 @@
 		};
 		B5404439229DC35F0030640B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF8B865FA85990D03E81B0C1 /* Pods-AwesomeChuckApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,7 +473,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "funny-farm.AwesomeChuckApp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Chuck`s Jokes";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
